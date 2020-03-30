@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+}
+
+
+/* font-family: 'Sen', sans-serif;
+font-family: 'Gotu', sans-serif;
+font-family: 'Slabo 27px', serif; */
+
+header h1 {
+    font-family: 'Gotu', sans-serif;
+    color: rgb(255, 205, 205);
+    text-align: center;
+    background-image: radial-gradient(circle, #00050b, #003440, #006560, #399664, #a0c255);
+    box-sizing: border-box;
+}
+
+.scoreBoard {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 15%;
+    max-width: 8rem;
+    margin: 3rem auto;
+    font-size: 1.5rem;
+    color: #d8f9fc;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.badge {
+    background: rgb(158, 8, 53);
+    font-size: 1rem;
+    font-family: 'Gotu', sans-serif;
+    padding: .2rem;
+}
+
+#userLable {
+    position: absolute;
+    top: 1rem;
+    left: -1.5rem;
+}
+
+#ComputerLable {
+    position: absolute;
+    top: 1rem;
+    right: -1.5rem;
+}
+
+.result {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    color: #f5e8fd;
+}
+
+.choises {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 200px;
+    margin: 1rem auto;
+}
+
+.choice {
+    display: inline-block;
+    border: 3px solid #c255a6;
+    padding: 1rem;
+    margin: 0 .5rem;
+    color: rgb(235, 236, 159);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+.message {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: #f8f7f8;
+}
+
+.green {
+    border: 4px solid rgb(3, 112, 3);
+    background-image: radial-gradient(circle, #05370e, #075317, #09711f, #0e9028, #14b030);
+}
+
+.red {
+    border: 4px solid rgb(119, 3, 28);
+    background-image: radial-gradient(circle, #370516, #390518, #3a0419, #3c041b, #3d041d);
+}
+
+.grey {
+    border: 4px solid rgb(66, 66, 66);
+    background-image: radial-gradient(circle, #7e7b7c, #8d888a, #9c9698, #aba4a6, #bbb2b5);
+}
